@@ -29,4 +29,8 @@ public class Console {
     public static Double getDoubleInput(String prompt) {
         return null;
     }
-}
+
+    public static Integer getSumOf(String prompt) {
+//        return
+//    }
+
