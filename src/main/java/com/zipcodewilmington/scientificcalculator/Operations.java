@@ -38,14 +38,10 @@ public class Operations {
     }
 
     public double factorial(double int1) {
+        double x = 0;
         for (double i = 1; i <= int1; i++) {
-            return int1 *= i;
+            x = int1 *= i;
         }
+        return x;
     }
 }
-/* Calculator
-addition (Choose an option)
-1. add 2. subtract 3. multiple
-1 ->
-3 +5 -> 8
- */
